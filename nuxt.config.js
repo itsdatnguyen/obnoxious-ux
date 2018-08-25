@@ -55,6 +55,9 @@ module.exports = {
         crossorigin: "anomymous",
         integrity: "sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       }
+    ],
+    script: [
+      
     ]
   },
   /*

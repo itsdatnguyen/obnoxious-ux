@@ -5,7 +5,7 @@
         .cover-image-container
           .cover-image.home-page__art-image
           .home-page__header-container
-            h1.home-page__header.text-light The Best Resources For Learning UI/UX
+            h1.home-page__header.text-light.primary The Best Resources For Learning UI/UX
       aside-content(title="Curated By" color="secondary")
         curator-list(:list="curators")
 
@@ -17,7 +17,7 @@
           .cover-image.home-page__review-image
 
           .home-page__header-container
-            h1.home-page__header.text-light The Best Resources For Learning UI/UX
+            h1.home-page__header.text-light.secondary Created with love by design professionals
       
 
 </template>
