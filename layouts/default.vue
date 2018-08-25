@@ -1,6 +1,7 @@
 <template lang="pug">
   .default-layout
     top-fixed-notifications
+    cookie-notification(v-if="shouldShowCookieNotification" @close="shouldShowCookieNotification = false")
     main.default-layout__main
       nuxt
 </template>
@@ -16,13 +17,16 @@ import {
 import { Curator } from "~/lib"
 
 import TopFixedNotifications from '~/components/TopFixedNotifications.vue'
+import CookieNotification from '~/components/CookieNotification.vue'
 
 @Component({
   components: {
-    TopFixedNotifications
+    TopFixedNotifications,
+    CookieNotification
   }
 })
 export default class DefaultLayout extends Vue {
+  shouldShowCookieNotification = true
 
 }
 </script>
