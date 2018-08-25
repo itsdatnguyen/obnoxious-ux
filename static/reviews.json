@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Randel Peter",
+        "rating": "5",
+        "occupation": "Backend Developer",
+        "description": "Following Obnoxious UX impacted my websites conversion rates from 24% to 2%!"
+    },
+    {
+        "name": "Sasho Harish",
+        "rating": "2",
+        "occupation": "Opinionated web developer",
+        "description": "I can't say that I don't disagree with loving these resources!"
+    },
+    {
+        "name": "Ada Laura",
+        "rating": "5",
+        "occupation": "Extreme masochist",
+        "description": "Before, my users were happy and content. Now, my users are pissed off and sending me death threats!"
+    }
+]

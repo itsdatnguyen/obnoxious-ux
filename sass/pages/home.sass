@@ -1,0 +1,32 @@
+@import '../theme.sass'
+  
+.home-page__double-layout-content
+  position: relative
+  flex: 1 1 auto
+
+.home-page__header-container
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translateX(-50%) translateY(-50%)
+
+  .home-page__header
+    padding: 2rem
+    background-color: $primary
+  
+.home-page__double-layout
+  display: flex
+  flex-direction: column
+
+.home-page__double-layout--reverse
+  flex-direction: column-reverse
+
+@media screen and (min-width: 768px)
+  .home-page__double-layout
+    flex-direction: row
+
+.home-page__review-image
+  background-image: url(/assets/images/shitty-generic-header-image.jpg)
+
+.home-page__art-image
+  background-image: url(/assets/images/somewhat-cool-deer-image-i-got-from-pixabay.jpg)

@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Nahal Yasamin",
+        "portraitUrl": "https://randomuser.me/api/portraits/men/66.jpg",
+        "occupation": "CEO of GreenEstateLand Co",
+        "description": "My design team recommended a faded pastel color scheme for the GreenEstateLand website. After I fired them, we implemented a beautiful neon blue color theme with red text."
+    },
+    {
+        "name": "Den Aristarkh",
+        "portraitUrl": "https://randomuser.me/api/portraits/men/55.jpg",
+        "occupation": "Full stack developer at Striped",
+        "description": "I surround all of my backend code in try/catch blocks so I can focus less on user-caused bugs and on beautiful and responsive web designs."
+    }
+]
