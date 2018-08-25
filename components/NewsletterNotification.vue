@@ -2,7 +2,7 @@
   .newsletter-notification
     .newsletter-notification__close-button(@click="$emit('close')")
     .newsletter-notification__form
-      newsletter-form(@close="$emit('close')")
+      newsletter-form
 </template>
 
 

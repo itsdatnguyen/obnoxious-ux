@@ -6,3 +6,15 @@ button
   border-radius: 4px
   border: 2px solid $dark
   border-bottom: 4px solid $dark
+
+  &:active
+    border-width: 1px
+    border-bottom-width: 2px
+    margin: 1px 1px 2px 1px
+
+.btn
+  @extend button
+
+.btn-light
+  border: 2px solid $light
+  border-bottom: 4px solid $light
